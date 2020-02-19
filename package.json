@@ -1,0 +1,13 @@
+{
+  "name": "hatch-squat",
+  "version": "1.0.0",
+  "description": "Hatch squat program",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Brian Liang",
+  "license": "ISC"
+}
