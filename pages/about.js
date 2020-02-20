@@ -1,7 +1,11 @@
+import Layout from '../components/MyLayout';
+
 export default function About(){
     return(
         <div>
-            <p>This is an about page</p>
+            <Layout>
+                <p>This is an about page</p>
+            </Layout>
         </div>
     )
 }
