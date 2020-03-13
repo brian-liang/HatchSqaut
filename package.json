@@ -9,5 +9,14 @@
     "start": "next start"
   },
   "author": "Brian Liang",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brian-liang/HatchSqaut.git"
+  },
+  "dependencies": {
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
 }
