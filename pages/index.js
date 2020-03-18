@@ -1,25 +1,16 @@
 import Layout from '../components/MyLayout';
 import Link from 'next/link';
+import fetch from 'isomorphic-unfetch';
+import useSWR from 'swr';
+import { render } from 'react-dom';
 
-const PostLink = props => (
-  <li>
-    <Link href="/p/[id]" as={`/p/${props.id}`}>
-      <a>{props.id}</a>
-    </Link>
-  </li>
-);
 
-export default function Index() {
-    return (
-      <div>
-        <Layout>
-          <p>Hello Next.js</p>
-          <ul>
-            <PostLink id="hello-nextjs"/>
-            <PostLink id="learn-nextjs"/>
-            <PostLink id="deploy-nextjs"/>
-          </ul>
-        </Layout>
-      </div>
-    );
-  }
+export default function() {
+  return(
+    <div>
+    <Layout>
+    <h1>HATCH SQUAT PROGRAM</h1>
+    </Layout>
+    </div>
+  );
+}

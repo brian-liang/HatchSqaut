@@ -1,5 +1,6 @@
 import {useRouter} from 'next/router';
 import Layout from '../../components/MyLayout';
+import fetch from 'isomorphic-unfetch';
 
 export default function Post(){
     const router = useRouter();

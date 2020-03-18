@@ -16,7 +16,7 @@ const Header = () => (
         <Link href="/backSqt">
           <a style={linkStyle}>Back Squat</a>
         </Link>
-        <Link href="/">
+        <Link href="/frontSqt">
           <a style={linkStyle}>Front Squat</a>
         </Link>
     </div>
